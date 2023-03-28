@@ -7,7 +7,7 @@ logging.config.fileConfig("logging.conf")
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.ERROR) 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5287314321:AAFNRWNo-hGRHibmBKFSFgxPyw9B3oSTQo0")
 
 API_ID = int(os.environ.get("API_ID", ""))
 
