@@ -13,7 +13,7 @@ API_ID = int(os.environ.get("API_ID", "13132442"))
 
 API_HASH = os.environ.get("API_HASH", "54484b8b13b1c2357b6087b196510e21")
 
-FORCE_SUB = os.environ.get("FORCE_SUB", None)           
+FORCE_SUB = os.environ.get("FORCE_SUB", "PhoenixBotz")           
 
 class Bot(Client):
 
